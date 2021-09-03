@@ -151,6 +151,11 @@
          pairRate3WithId[d.id] = +d.rate3;
          });
          
+        svg1.apped("text")
+            .attr("y", 520)//magic number here
+            .attr("x", 320)
+            .text("I'm a label");
+
 
          svg1.append("g")
          .attr("class", "county")
