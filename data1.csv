@@ -2087,463 +2087,69 @@ id,name,rate,rate1,rate2,rate3
 13321,Worth,0,0,0,0
 13321,Sumner,0,0,0,0
 22000,Louisiana,0,0,0,0
-22001,Crowley,0,0,0,0
-22001,Eunice,0,0,0,0
-22001,Rayne,0,0,0,0
-22001,Acadia,0,0,0,0
-22001,Basile,0,0,0,0
-22001,Church Point,0,0,0,0
-22001,Duson,0,0,0,0
-22001,Iota,0,0,0,0
-22001,Estherwood,0,0,0,0
-22001,Mermentau,0,0,0,0
-22001,Morse,0,0,0,0
 22001,Acadia,0.003497604,1,28591,0
-22003,Oakdale,0,0,0,0
-22003,Allen,0,0,0,0
-22003,Coushatta,0,0,0,0
-22003,Elizabeth,0,0,0,0
-22003,Kinder,0,0,0,0
-22003,Oberlin,0,0,0,0
-22003,Reeves,0,0,0,0
 22003,Allen,0.039295819,5,12724,0
-22005,Donaldsonville,0,0,0,0
-22005,Gonzales,0,0,0,0
-22005,Ascension,0,0,0,0
-22005,Sorrento,0,0,0,0
 22005,Ascension,64.23572997,37452,58304,0
-22007,Assumption,0,0,0,0
-22007,United Houma Nation,0,0,0,0
-22007,Napoleonville,0,0,0,0
 22007,Assumption,50.09532888,5255,10490,0
-22009,Bunkie,0,0,0,0
-22009,Marksville,0,0,0,0
-22009,Avoyelles,0,0,0,0
-22009,Tunica-Biloxi,0,0,0,0
-22009,Cottonport,0,0,0,0
-22009,Evergreen,0,0,0,0
-22009,Mansura,0,0,0,0
-22009,Simmesport,0,0,0,0
-22009,Hessmer,0,0,0,0
-22009,Moreauville,0,0,0,0
-22009,Plaucheville,0,0,0,0
 22009,Avoyelles,0.004565376,1,21904,0
-22011,DeRidder,0,0,0,0
-22011,Beauregard,0,0,0,0
-22011,Four Winds Cherokee,0,0,0,0
-22011,Merryville,0,0,0,0
 22011,Beauregard,0.067340067,15,22275,0
-22013,Bienville,0,0,0,0
-22013,Arcadia,0,0,0,0
-22013,Gibsland,0,0,0,0
-22013,Mount Lebanon,0,0,0,0
-22013,Ringgold,0,0,0,0
-22013,Bienville,0,0,0,0
-22013,Bryceland,0,0,0,0
-22013,Castor,0,0,0,0
-22013,Jamestown,0,0,0,0
-22013,Lucky,0,0,0,0
-22013,Saline,0,0,0,0
 22013,Bienville,0.011170688,1,8952,0
-22015,Bossier City,0,0,0,0
-22015,Shreveport,0,0,0,0
-22015,Bossier,0,0,0,0
-22015,Benton,0,0,0,0
-22015,Haughton,0,0,0,0
-22015,Plain Dealing,0,0,0,0
 22015,Bossier,0.006512961,4,61416,0
-22017,Shreveport,0,0,0,0
-22017,Caddo,0,0,0,0
-22017,Blanchard,0,0,0,0
-22017,Greenwood,0,0,0,0
-22017,Mooringsport,0,0,0,0
-22017,Oil City,0,0,0,0
-22017,Vivian,0,0,0,0
-22017,Belcher,0,0,0,0
-22017,Gilliam,0,0,0,0
-22017,Hosston,0,0,0,0
-22017,Ida,0,0,0,0
-22017,Rodessa,0,0,0,0
 22017,Caddo,0,0,119697,0
-22019,DeQuincy,0,0,0,0
-22019,Lake Charles,0,0,0,0
-22019,Sulphur,0,0,0,0
-22019,Westlake,0,0,0,0
-22019,Calcasieu,0,0,0,0
-22019,Iowa,0,0,0,0
-22019,Vinton,0,0,0,0
 22019,Calcasieu,0.000998383,1,100162,0
-22021,Caldwell,0,0,0,0
-22021,Columbia,0,0,0,0
-22021,Clarks,0,0,0,0
-22021,Grayson,0,0,0,0
 22021,Caldwell,0.064609918,4,6191,0
-22023,Cameron,0,0,0,0
 22023,Cameron,0.055370986,1,1806,0
-22025,Catahoula,0,0,0,0
-22025,Jonesville,0,0,0,0
-22025,Harrisonburg,0,0,0,0
-22025,Sicily Island,0,0,0,0
 22025,Catahoula,0,0,125,0
-22027,Claiborne,0,0,0,0
-22027,Haynesville,0,0,0,0
-22027,Homer,0,0,0,0
-22027,Athens,0,0,0,0
-22027,Junction City,0,0,0,0
-22027,Lisbon,0,0,0,0
 22027,Claiborne,0.01067122,1,9371,0
-22029,Concordia,0,0,0,0
-22029,Clayton,0,0,0,0
-22029,Ferriday,0,0,0,0
-22029,Ridgecrest,0,0,0,0
-22029,Vidalia,0,0,0,0
 22029,Concordia,0.447993767,23,5134,0
-22031,Mansfield,0,0,0,0
-22031,De Soto,0,0,0,0
-22031,Keachi,0,0,0,0
-22031,Logansport,0,0,0,0
-22031,Stonewall,0,0,0,0
-22031,Grand Cane,0,0,0,0
-22031,Longstreet,0,0,0,0
-22031,South Mansfield,0,0,0,0
-22031,Stanley,0,0,0,0
 22031,De Soto,0.02697963,4,14826,0
-22033,Baker,0,0,0,0
-22033,Baton Rouge,0,0,0,0
-22033,Central,0,0,0,0
-22033,Zachary,0,0,0,0
-22033,East Baton Rouge,0,0,0,0
 22033,East Baton Rouge,30.5577409,66031,216086,0
-22035,East Carroll,0,0,0,0
-22035,Lake Providence,0,0,0,0
 22035,East Carroll,0.028368794,1,3525,0
-22037,East Feliciana,0,0,0,0
-22037,Clinton,0,0,0,0
-22037,Jackson,0,0,0,0
-22037,Slaughter,0,0,0,0
-22037,Norwood,0,0,0,0
-22037,Wilson,0,0,0,0
 22037,East Feliciana,38.62168675,4007,10375,0
-22039,Ville Platte,0,0,0,0
-22039,Evangeline,0,0,0,0
-22039,Basile,0,0,0,0
-22039,Mamou,0,0,0,0
-22039,Chataignier,0,0,0,0
-22039,Pine Prairie,0,0,0,0
-22039,Turkey Creek,0,0,0,0
 22039,Evangeline,0,0,18110,0
-22041,Winnsboro,0,0,0,0
-22041,Franklin,0,0,0,0
-22041,Wisner,0,0,0,0
-22041,Baskin,0,0,0,0
-22041,Gilbert,0,0,0,0
 22041,Franklin,0.013837,1,7227,0
-22043,Grant,0,0,0,0
-22043,Jena Band of Choctaw,0,0,0,0
-22043,Colfax,0,0,0,0
-22043,Montgomery,0,0,0,0
-22043,Pollock,0,0,0,0
-22043,Creola,0,0,0,0
-22043,Dry Prong,0,0,0,0
-22043,Georgetown,0,0,0,0
 22043,Grant,0,0,9363,0
-22045,Jeanerette,0,0,0,0
-22045,New Iberia,0,0,0,0
-22045,Iberia,0,0,0,0
-22045,Delcambre,0,0,0,0
-22045,Loreauville,0,0,0,0
 22045,Iberia,0,0,34787,0
-22047,Plaquemine,0,0,0,0
-22047,St. Gabriel,0,0,0,0
-22047,Iberville,0,0,0,0
-22047,Maringouin,0,0,0,0
-22047,White Castle,0,0,0,0
-22047,Grosse Tete,0,0,0,0
-22047,Rosedale,0,0,0,0
 22047,Iberville,34.15868824,3104,9087,0
-22049,Jackson,0,0,0,0
-22049,Chatham,0,0,0,0
-22049,Eros,0,0,0,0
-22049,Jonesboro,0,0,0,0
-22049,East Hodge,0,0,0,0
-22049,Hodge,0,0,0,0
-22049,North Hodge,0,0,0,0
-22049,Quitman,0,0,0,0
 22049,Jackson,0.011213277,1,8918,0
-22051,Gretna,0,0,0,0
-22051,Harahan,0,0,0,0
-22051,Kenner,0,0,0,0
-22051,Westwego,0,0,0,0
-22051,Jefferson,0,0,0,0
-22051,Grand Isle,0,0,0,0
-22051,Jean Lafitte,0,0,0,0
 22051,Jefferson,95.84632585,203176,211981,0
-22053,Jennings,0,0,0,0
-22053,Jefferson Davis,0,0,0,0
-22053,Elton,0,0,0,0
-22053,Lake Arthur,0,0,0,0
-22053,Welsh,0,0,0,0
-22053,Fenton,0,0,0,0
 22053,Jefferson Davis,0.008105041,1,12338,0
-22055,Broussard,0,0,0,0
-22055,Carencro,0,0,0,0
-22055,Lafayette,0,0,0,0
-22055,Scott,0,0,0,0
-22055,Youngsville,0,0,0,0
-22055,Lafayette,0,0,0,0
-22055,Duson,0,0,0,0
 22055,Lafayette,0.00528076,3,56810,0
-22057,Thibodaux,0,0,0,0
-22057,Lafourche,0,0,0,0
-22057,United Houma Nation,0,0,0,0
-22057,Golden Meadow,0,0,0,0
-22057,Lockport,0,0,0,0
 22057,Lafourche,98.11913643,43403,44235,0
-22059,La Salle,0,0,0,0
-22059,Jena Band of Choctaw,0,0,0,0
-22059,Jena,0,0,0,0
-22059,Olla,0,0,0,0
-22059,Tullos,0,0,0,0
-22059,Urania,0,0,0,0
 22059,La Salle,0.01710864,1,5845,0
-22061,Grambling,0,0,0,0
-22061,Ruston,0,0,0,0
-22061,Lincoln,0,0,0,0
-22061,Dubach,0,0,0,0
-22061,Vienna,0,0,0,0
-22061,Choudrant,0,0,0,0
-22061,Downsville,0,0,0,0
-22061,Simsboro,0,0,0,0
 22061,Lincoln,0.007518232,1,13301,0
-22063,Denham Springs,0,0,0,0
-22063,Livingston,0,0,0,0
-22063,Killian,0,0,0,0
-22063,Livingston,0,0,0,0
-22063,Springfield,0,0,0,0
-22063,Walker,0,0,0,0
-22063,Albany,0,0,0,0
-22063,French Settlement,0,0,0,0
-22063,Port Vincent,0,0,0,0
 22063,Livingston,68.70620657,46870,68218,0
-22065,Tallulah,0,0,0,0
-22065,Madison,0,0,0,0
-22065,Delta,0,0,0,0
-22065,Mound,0,0,0,0
-22065,Richmond,0,0,0,0
 22065,Madison,0.016843524,1,5937,0
-22067,Bastrop,0,0,0,0
-22067,Morehouse,0,0,0,0
-22067,Bonita,0,0,0,0
-22067,Collinston,0,0,0,0
-22067,Mer Rouge,0,0,0,0
-22067,Oak Ridge,0,0,0,0
 22067,Morehouse,0.007895776,1,12665,0
-22069,Natchitoches,0,0,0,0
-22069,Natchitoches,0,0,0,0
-22069,Adais Caddo,0,0,0,0
-22069,Campti,0,0,0,0
-22069,Ashland,0,0,0,0
-22069,Clarence,0,0,0,0
-22069,Goldonna,0,0,0,0
-22069,Natchez,0,0,0,0
-22069,Powhatan,0,0,0,0
-22069,Provencal,0,0,0,0
-22069,Robeline,0,0,0,0
 22069,Natchitoches,0.075035642,10,13327,0
-22071,New Orleans,0,0,0,0
 22071,Orleans,88.81222099,172087,193765,0
-22073,Monroe,0,0,0,0
-22073,West Monroe,0,0,0,0
-22073,Ouachita,0,0,0,0
-22073,Richwood,0,0,0,0
-22073,Sterlington,0,0,0,0
 22073,Ouachita,0.055144064,44,79791,0
-22075,Plaquemines,0,0,0,0
 22075,Plaquemines,97.30732786,12323,12664,0
-22077,New Roads,0,0,0,0
-22077,Pointe Coupee,0,0,0,0
-22077,Fordoche,0,0,0,0
-22077,Livonia,0,0,0,0
-22077,Morganza,0,0,0,0
 22077,Pointe Coupee,0.157140051,8,5091,0
-22079,Alexandria,0,0,0,0
-22079,Pineville,0,0,0,0
-22079,Rapides,0,0,0,0
-22079,Clifton Choctaw,0,0,0,0
-22079,Ball,0,0,0,0
-22079,Boyce,0,0,0,0
-22079,Cheneyville,0,0,0,0
-22079,Glenmora,0,0,0,0
-22079,Lecompte,0,0,0,0
-22079,Woodworth,0,0,0,0
-22079,Forest Hill,0,0,0,0
-22079,McNary,0,0,0,0
 22079,Rapides,0.086230371,38,44068,0
-22081,Red River,0,0,0,0
-22081,Coushatta,0,0,0,0
-22081,Edgefield,0,0,0,0
-22081,Hall Summit,0,0,0,0
-22081,Martin,0,0,0,0
 22081,Red River,0,0,5114,0
-22083,Richland,0,0,0,0
-22083,Delhi,0,0,0,0
-22083,Mangham,0,0,0,0
-22083,Rayville,0,0,0,0
 22083,Richland,0.334150145,30,8978,0
-22085,Sabine,0,0,0,0
-22085,Apache Choctaw,0,0,0,0
-22085,Many,0,0,0,0
-22085,Zwolle,0,0,0,0
-22085,Converse,0,0,0,0
-22085,Fisher,0,0,0,0
-22085,Florien,0,0,0,0
-22085,Noble,0,0,0,0
-22085,Pleasant Hill,0,0,0,0
 22085,Sabine,0.404289966,72,17809,0
-22087,St. Bernard,0,0,0,0
 22087,St. Bernard,84.3518157,17282,20488,0
-22089,St. Charles,0,0,0,0
 22089,St. Charles,92.31907394,21214,22979,0
-22091,St. Helena,0,0,0,0
-22091,Greensburg,0,0,0,0
-22091,Montpelier,0,0,0,0
 22091,St. Helena,210.3433415,14642,6961,0
-22093,St. James,0,0,0,0
-22093,Gramercy,0,0,0,0
-22093,Lutcher,0,0,0,0
 22093,St. James,98.41237942,9794,9952,0
-22095,St. John the Baptist,0,0,0,0
 22095,St. John The Baptist,97.65577737,19371,19836,0
-22097,Eunice,0,0,0,0
-22097,Opelousas,0,0,0,0
-22097,St. Landry,0,0,0,0
-22097,Arnaudville,0,0,0,0
-22097,Grand Coteau,0,0,0,0
-22097,Krotz Springs,0,0,0,0
-22097,Leonville,0,0,0,0
-22097,Melville,0,0,0,0
-22097,Port Barre,0,0,0,0
-22097,Sunset,0,0,0,0
-22097,Washington,0,0,0,0
-22097,Cankton,0,0,0,0
-22097,Palmetto,0,0,0,0
 22097,St. Landry,0.004338489,2,46099,0
-22099,Breaux Bridge,0,0,0,0
-22099,Broussard,0,0,0,0
-22099,Morgan City,0,0,0,0
-22099,St. Martinville,0,0,0,0
-22099,St. Martin,0,0,0,0
-22099,Arnaudville,0,0,0,0
-22099,Henderson,0,0,0,0
-22099,Parks,0,0,0,0
 22099,St. Martin,1.38612315,355,25611,0
-22101,Franklin,0,0,0,0
-22101,Morgan City,0,0,0,0
-22101,Patterson,0,0,0,0
-22101,St. Mary,0,0,0,0
-22101,Chitimacha,0,0,0,0
-22101,United Houma Nation,0,0,0,0
-22101,Baldwin,0,0,0,0
-22101,Berwick,0,0,0,0
 22101,St. Mary,0.005268426,1,18981,0
-22103,Covington,0,0,0,0
-22103,Mandeville,0,0,0,0
-22103,Slidell,0,0,0,0
-22103,St. Tammany,0,0,0,0
-22103,Abita Springs,0,0,0,0
-22103,Madisonville,0,0,0,0
-22103,Pearl River,0,0,0,0
-22103,Folsom,0,0,0,0
-22103,Sun,0,0,0,0
 22103,St. Tammany,69.05152737,88339,127932,0
-22105,Hammond,0,0,0,0
-22105,Ponchatoula,0,0,0,0
-22105,Tangipahoa,0,0,0,0
-22105,Amite City,0,0,0,0
-22105,Independence,0,0,0,0
-22105,Kentwood,0,0,0,0
-22105,Roseland,0,0,0,0
-22105,Tangipahoa,0,0,0,0
-22105,Tickfaw,0,0,0,0
 22105,Tangipahoa,91.20885481,63039,69115,0
-22107,Tensas,0,0,0,0
-22107,Newellton,0,0,0,0
-22107,St. Joseph,0,0,0,0
-22107,Waterproof,0,0,0,0
 22107,Tensas,0.110834026,4,3609,0
-22109,Houma,0,0,0,0
-22109,Terrebonne,0,0,0,0
-22109,United Houma Nation,0,0,0,0
 22109,Terrebonne,97.14985767,26962,27753,0
-22111,Union,0,0,0,0
-22111,Bernice,0,0,0,0
-22111,Farmerville,0,0,0,0
-22111,Marion,0,0,0,0
-22111,Downsville,0,0,0,0
-22111,Junction City,0,0,0,0
-22111,Lillie,0,0,0,0
-22111,Spearsville,0,0,0,0
 22111,Union,0.0144655,2,13826,0
-22113,Abbeville,0,0,0,0
-22113,Kaplan,0,0,0,0
-22113,Vermilion,0,0,0,0
-22113,Delcambre,0,0,0,0
-22113,Erath,0,0,0,0
-22113,Gueydan,0,0,0,0
-22113,Maurice,0,0,0,0
 22113,Vermilion,0.197005516,45,22842,0
-22115,DeRidder,0,0,0,0
-22115,Leesville,0,0,0,0
-22115,Vernon,0,0,0,0
-22115,Clifton Choctaw,0,0,0,0
-22115,Four Winds Cherokee,0,0,0,0
-22115,Hornbeck,0,0,0,0
-22115,New Llano,0,0,0,0
-22115,Rosepine,0,0,0,0
-22115,Anacoco,0,0,0,0
-22115,Simpson,0,0,0,0
 22115,Vernon,0.015436268,4,25913,0
-22117,Bogalusa,0,0,0,0
-22117,Washington,0,0,0,0
-22117,Franklinton,0,0,0,0
-22117,Angie,0,0,0,0
-22117,Varnado,0,0,0,0
 22117,Washington,38.80403517,9578,24683,0
-22119,Minden,0,0,0,0
-22119,Springhill,0,0,0,0
-22119,Webster,0,0,0,0
-22119,Cotton Valley,0,0,0,0
-22119,Cullen,0,0,0,0
-22119,Sarepta,0,0,0,0
-22119,Sibley,0,0,0,0
-22119,Dixie Inn,0,0,0,0
-22119,Doyline,0,0,0,0
-22119,Dubberly,0,0,0,0
-22119,Heflin,0,0,0,0
-22119,Shongaloo,0,0,0,0
 22119,Webster,0.006103143,1,16385,0
-22121,Port Allen,0,0,0,0
-22121,West Baton Rouge,0,0,0,0
-22121,Addis,0,0,0,0
-22121,Brusly,0,0,0,0
 22121,West Baton Rouge,0.015576324,2,12840,0
-22123,West Carroll,0,0,0,0
-22123,Oak Grove,0,0,0,0
-22123,Epps,0,0,0,0
-22123,Forest,0,0,0,0
-22123,Kilbourne,0,0,0,0
-22123,Pioneer,0,0,0,0
 22123,West Carroll,0.038610039,1,2590,0
-22125,West Feliciana,0,0,0,0
-22125,St. Francisville,0,0,0,0
 22125,West Feliciana,1.185832423,76,6409,0
-22127,Winnfield,0,0,0,0
-22127,Winn,0,0,0,0
-22127,Tullos,0,0,0,0
-22127,Atlanta,0,0,0,0
-22127,Calvin,0,0,0,0
-22127,Dodson,0,0,0,0
-22127,Sikes,0,0,0,0
 22127,Winn,0.076146964,4,5253,0
 23000,Maine,0,0,0,0
 23001,Auburn,0,0,0,0
