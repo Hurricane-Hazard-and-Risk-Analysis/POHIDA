@@ -95,10 +95,10 @@
         var svg = d3.select("body")
              .append("svg")
    //responsive SVG needs these 2 attributes and no width and height attr
-             .attr("viewBox", "300 0 600 500")
+             .attr("viewBox", "0 0 600 600")
              .attr()
              //.attr("transform", "rotate(33)")
-             .attr("width",  200)
+             .attr("width", 200)
              .attr("height", 200);
    //class to make it responsive
 
@@ -168,7 +168,6 @@
          div.transition().duration(300)
          .style("opacity", 1)
          div.text(pairNameWithId[d.id] + ":Poweroutage " + pairRateWithId[d.id]+" % with outage number " + pairRate1WithId[d.id] + " (" + pairRate2WithId[d.id] +" total households)")
-
          .style("left", (d3.event.pageX) + "px")
          .style("top", (d3.event.pageY -30) + "px");
          })
