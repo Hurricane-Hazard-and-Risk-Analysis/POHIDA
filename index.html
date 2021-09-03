@@ -345,7 +345,7 @@
    //class to make it responsive
 
 //         .style("margin", "-15px auto")
-         var text = svg.selectAll("text")
+         var text = svg2.selectAll("text")
          var textLabels = text.attr("x", 500)
                          .attr("y", 400)
                          .text("testxsds")               
@@ -410,7 +410,7 @@
          });
          
 
-         svg.append("g")
+         svg2.append("g")
          .attr("class", "county")
          .selectAll("path")
          .data(topojson.feature(us, us.objects.counties).features)
