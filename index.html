@@ -157,7 +157,7 @@
          .enter().append("path")
          .attr("d", path)
          .style ( "fill" , function (d) {
-         return color (pairRateWithId[d.id]*2000);
+         return color (pairRate2WithId[d.id]*2000);
          })
          .style("opacity", 0.8)
          .on("mouseover", function(d) {
@@ -167,8 +167,8 @@
          d3.select(this).transition().duration(300).style({'opacity': 1, 'stroke': 'black', 'stroke-width': 1.5});
          div.transition().duration(300)
          .style("opacity", 1)
-         div.text(pairNameWithId[d.id] + ":Historical flood level " + pairRateWithId[d.id]+" m , Future flood level " + pairRate1WithId[d.id] + " (" + pairRate2WithId[d.id] +","+pairRate3WithId[d.id]+")m")
-
+         //div.text(pairNameWithId[d.id] + ":Historical flood level " + pairRateWithId[d.id]+" m , Future flood level " + pairRate1WithId[d.id] + " (" + pairRate2WithId[d.id] +","+pairRate3WithId[d.id]+")m")
+        div.text(pairNameWithId[d.id] + ":Power Outage Rate " + pairRate2WithId[d.id]+" %, Power Outage Household Number " + pairRate1WithId[d.id] + " (in total" + pairRateWithId[d.id]+")")
          .style("left", (d3.event.pageX) + "px")
          .style("top", (d3.event.pageY -30) + "px");
          })
