@@ -92,7 +92,7 @@
          .attr("class", "tooltip")
          .style("opacity", 0);
    
-d3.select("body").append("p").text("Modeled /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ Observation");
+//d3.select("body").append("p").text("Modeled /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ Observation");
 
 
  ///////self added       
@@ -104,7 +104,8 @@ d3.select("body").append("p").text("Modeled /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ O
              //.attr("transform", "rotate(33)")
              .attr("width", 150)
              .attr("height", 150);
-         
+             .append("p")
+             .text("Modeled")
         var text = svg1.selectAll("text")
         var textLabels = text.attr("x", 500)
                          .attr("y", 400)
