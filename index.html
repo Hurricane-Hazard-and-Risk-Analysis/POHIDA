@@ -92,7 +92,7 @@
          .attr("class", "tooltip")
          .style("opacity", 0);
    
-d3.select("body").append("p").text("Modeled                                                 Observation");
+d3.select("body").append("p").text("Modeled /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ Observation");
 
 
  ///////self added       
@@ -114,7 +114,7 @@ d3.select("body").append("p").text("Modeled                                     
 
         queue()
          .defer(d3.json, "us1.json")
-         .defer(d3.csv, "data1.csv")
+         .defer(d3.csv, "data2.csv")
          .await(ready1)
 
 
