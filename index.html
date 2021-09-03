@@ -164,20 +164,6 @@
             var sel = d3.select(this);
             sel.moveToFront();
 
-         svg.append("g")
-         .attr("class", "county")
-         .selectAll("path")
-         .data(topojson.feature(us, us.objects.counties).features)
-         .enter().append("path")
-         .attr("d", path)
-         .style ( "fill" , function (d) {
-         return color (pairRateWithId[d.id]*50);
-         })
-         .style("opacity", 0.8)
-         .on("mouseover", function(d) {
-            var sel = d3.select(this);
-            sel.moveToFront();
-
          d3.select(this).transition().duration(300).style({'opacity': 1, 'stroke': 'black', 'stroke-width': 1.5});
          div.transition().duration(300)
          .style("opacity", 1)
