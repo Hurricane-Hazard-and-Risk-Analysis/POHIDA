@@ -157,6 +157,11 @@
             .text("Model")
             .attr("font-size",8);
 
+        svg1.append("text")
+            .attr("y", 330)//magic number here
+            .attr("x", 500)
+            .text("03-Sep-2021 00:24:47")
+            .attr("font-size",8);
 
          svg1.append("g")
          .attr("class", "county")
@@ -221,6 +226,13 @@
             .attr("x", 500)
             .text("Observation")
             .attr("font-size",8);
+
+        svg.append("text")
+            .attr("y", 330)//magic number here
+            .attr("x", 500)
+            .text("03-Sep-2021 00:24:47")
+            .attr("font-size",8);
+
 
         queue()
          .defer(d3.json, "us1.json")
