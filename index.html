@@ -152,9 +152,9 @@
          });
          
         svg1.append("text")
-            .attr("y", 20)//magic number here
-            .attr("x", 20)
-            .text("I'm a label");
+            .attr("y", 320)//magic number here
+            .attr("x", 500)
+            .text("Model");
 
 
          svg1.append("g")
@@ -214,6 +214,10 @@
          
          var path = d3.geo.path()
          
+        svg.append("text")
+            .attr("y", 320)//magic number here
+            .attr("x", 500)
+            .text("Observation");
 
         queue()
          .defer(d3.json, "us1.json")
