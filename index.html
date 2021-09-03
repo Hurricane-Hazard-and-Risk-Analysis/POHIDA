@@ -42,12 +42,12 @@
     }
      
     .legend {
-        font-size: 5px;
+        font-size: 14px;
         font-family: 'Proxima Nova', sans-serif;
     }
 
     .legend_title {
-        font-size: 5px;
+        font-size: 14px;
         font-family: 'Proxima Nova', sans-serif;
         font-weight: bold;
     }
@@ -152,9 +152,10 @@
          });
          
         svg1.append("text")
-            .attr("y", 320)//magic number here
+            .attr("y", 320)//magic number here//y加往下
             .attr("x", 500)
-            .text("Model");
+            .text("Model")
+            .attr("font-size",8);
 
 
          svg1.append("g")
@@ -217,7 +218,8 @@
         svg.append("text")
             .attr("y", 320)//magic number here
             .attr("x", 500)
-            .text("Observation");
+            .text("Observation")
+            .attr("font-size",8);
 
         queue()
          .defer(d3.json, "us1.json")
