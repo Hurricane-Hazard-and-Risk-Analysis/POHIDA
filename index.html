@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Coastal Surge Over Time</title>
+    <title>Power Outage Over Time</title>
     <script type="text/javascript" src="https://d3js.org/d3.v3.min.js"></script>
     <script type="text/javascript" src="https://d3js.org/queue.v1.min.js"></script>
     <script type="text/javascript" src="https://d3js.org/topojson.v1.min.js"></script> 
@@ -97,7 +97,7 @@
    //responsive SVG needs these 2 attributes and no width and height attr
              .attr("viewBox", "300 0 600 500")
              .attr()
-             .attr("transform", "rotate(33)")
+             //.attr("transform", "rotate(33)")
              .attr("width",  400)
              .attr("height", 400);
    //class to make it responsive
@@ -113,7 +113,7 @@
 
         queue()
          .defer(d3.json, "us1.json")
-         .defer(d3.csv, "data.csv")
+         .defer(d3.csv, "data1.csv")
          .await(ready);
          
         function ready(error, us, data) {
@@ -167,7 +167,7 @@
          d3.select(this).transition().duration(300).style({'opacity': 1, 'stroke': 'black', 'stroke-width': 1.5});
          div.transition().duration(300)
          .style("opacity", 1)
-         div.text(pairNameWithId[d.id] + ":Historical flood level " + pairRateWithId[d.id]+" m , Future flood level " + pairRate1WithId[d.id] + " (" + pairRate2WithId[d.id] +","+pairRate3WithId[d.id]+")m")
+         div.text(pairNameWithId[d.id] + ":Poweroutage " + pairRateWithId[d.id]+" % with outage number" + pairRate1WithId[d.id] + " (" + pairRate2WithId[d.id] +"total households)")
 
          .style("left", (d3.event.pageX) + "px")
          .style("top", (d3.event.pageY -30) + "px");
