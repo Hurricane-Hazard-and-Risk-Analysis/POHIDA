@@ -87,7 +87,6 @@
          var ext_color_domain = [0,50,200,450,800,1250,1800,2450,3200,4050,5000]
          var legend_labels = ["< 500", "500+", "1000+", "1500+", "2000+", "2500+", "3000+", "3500+", "4000+", "4500+", "5000+"]
          var color = d3.scale.threshold()
-         
          .domain(color_domain)
          .range(["#7E9B8D", "#F1BB06", "#F1BB06", "#F39304","#F39304", "#E87604","#E87604","#EA422E", "#EA422E", "#C54637", "#C54637"]);
          
@@ -109,12 +108,13 @@
         var svg_legend = d3.select("#svg_legend")
 
         // create a list of keys
-        var keys = ["Mister A", "Brigitte", "Eleonore", "Another friend", "Batman"]
+        var keys = ["1%", "1~10%", "10~25%", "25~50%", "50~75%","75~100%"]
 
+        var rate = [49,499,1249,2449,3199,4999]
         // Usually you have a color scale in your chart already
-        var color = d3.scaleOrdinal()
-          .domain(keys)
-          .range(d3.schemeSet2);
+ //       var color = d3.scaleOrdinal()
+  //        .domain(keys)
+    //      .range(d3.schemeSet2);
 
         // Add one dot in the legend for each name.
         svg_legend.selectAll("mydots")
@@ -124,7 +124,7 @@
             .attr("cx", 100)
             .attr("cy", function(d,i){ return 100 + i*25}) // 100 is where the first dot appears. 25 is the distance between dots
             .attr("r", 7)
-            .style("fill", function(d){ return color(d)})
+            .style("fill", function(d,i){ return color(rate[i])})
 
         // Add one dot in the legend for each name.
         svg_legend.selectAll("mylabels")
@@ -133,7 +133,7 @@
           .append("text")
             .attr("x", 120)
             .attr("y", function(d,i){ return 100 + i*25}) // 100 is where the first dot appears. 25 is the distance between dots
-            .style("fill", function(d){ return color(d)})
+            .style("fill", function(d,i){ return color(rate[i])})
             .text(function(d){ return d})
             .attr("text-anchor", "left")
             .style("alignment-baseline", "middle")
