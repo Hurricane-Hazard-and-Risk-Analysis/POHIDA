@@ -110,7 +110,7 @@
         // create a list of keys
         var keys = ["1%", "1~10%", "10~25%", "25~50%", "50~75%","75~100%"]
 
-        var rate = [49,499,1249,2449,3199,4999]
+        var rate = [49,449,1249,2449,3199,4999]
         // Usually you have a color scale in your chart already
  //       var color = d3.scaleOrdinal()
   //        .domain(keys)
@@ -121,8 +121,8 @@
           .data(keys)
           .enter()
           .append("circle")
-            .attr("cx", 100)
-            .attr("cy", function(d,i){ return 100 + i*25}) // 100 is where the first dot appears. 25 is the distance between dots
+            .attr("cx", 20)
+            .attr("cy", function(d,i){ return 20 + i*10}) // 100 is where the first dot appears. 25 is the distance between dots
             .attr("r", 7)
             .style("fill", function(d,i){ return color(rate[i])})
 
@@ -131,12 +131,13 @@
           .data(keys)
           .enter()
           .append("text")
-            .attr("x", 120)
-            .attr("y", function(d,i){ return 100 + i*25}) // 100 is where the first dot appears. 25 is the distance between dots
+            .attr("x", 40)
+            .attr("y", function(d,i){ return 20 + i*10}) // 100 is where the first dot appears. 25 is the distance between dots
             .style("fill", function(d,i){ return color(rate[i])})
             .text(function(d){ return d})
             .attr("text-anchor", "left")
             .style("alignment-baseline", "middle")
+            .attr("font-size",8);
 
     </script>
 
