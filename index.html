@@ -94,6 +94,42 @@
    
 //d3.select("body").append("p").text("Modeled /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ Observation");
 
+        var svg_legend = d3.select("body")
+             .append("svg")
+   //responsive SVG needs these 2 attributes and no width and height attr
+             .attr("viewBox", "0 0 150 150")
+             .attr()
+             //.attr("transform", "rotate(33)")
+             .attr("width", 150)
+             .attr("height", 150);
+
+        var legend = svg_legend.selectAll("g.legend")
+         .data(ext_color_domain)
+         .enter().append("g")
+         .attr("class", "legend");
+         
+        var ls_w = 73, ls_h = 20;
+
+        legend.append("rect")
+         .attr("x", function(d, i){ return width - (i*ls_w) - ls_w;})
+         .attr("y", 550)
+         .attr("width", ls_w)
+         .attr("height", ls_h)
+         .style("fill", function(d, i) { return color(d); })
+         .style("opacity", 0.8);
+         
+        legend.append("text")
+         .attr("x", function(d, i){ return width - (i*ls_w) - ls_w;})
+         .attr("y", 590)
+         .text(function(d, i){ return legend_labels[i]; });
+
+         var legend_title = "Number of independent farms";
+
+         svg.append("text")
+         .attr("x", 10)
+         .attr("y", 540)
+         .attr("class", "legend_title")
+         .text(function(){return legend_title});
 
  ///////self added       
         var svg1 = d3.select("body")
@@ -319,6 +355,9 @@
          .style("opacity", 0);
          })
          };
+
+
+
 
 
 
