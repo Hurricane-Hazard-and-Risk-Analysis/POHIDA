@@ -94,42 +94,13 @@
    
 //d3.select("body").append("p").text("Modeled /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ Observation");
 
-        var svg_legend = d3.select("body")
-             .append("svg")
-   //responsive SVG needs these 2 attributes and no width and height attr
-             .attr("viewBox", "0 0 150 150")
-             .attr()
-             //.attr("transform", "rotate(33)")
-             .attr("width", 150)
-             .attr("height", 150);
-
-        var legend = svg_legend.selectAll("g.legend")
-         .data(ext_color_domain)
-         .enter().append("g")
-         .attr("class", "legend");
-         
-        var ls_w = 73, ls_h = 20;
-
-        legend.append("rect")
-         .attr("x", function(d, i){ return width - (i*ls_w) - ls_w;})
-         .attr("y", 10)
-         .attr("width", ls_w)
-         .attr("height", ls_h)
-         .style("fill", function(d, i) { return color(d); })
-         .style("opacity", 0.8);
-         
-        legend.append("text")
-         .attr("x", function(d, i){ return width - (i*ls_w) - ls_w;})
-         .attr("y", 10)
-         .text(function(d, i){ return legend_labels[i]; });
-
-         var legend_title = "Number of independent farms";
-
-         svg_legend.append("text")
-         .attr("x", 10)
-         .attr("y", 10)
-         .attr("class", "legend_title")
-         .text(function(){return legend_title});
+        import {legend, swatches} from "@d3/color-legend"
+        
+        legend({
+          color: d3.scaleThreshold([2.5, 3.1, 3.5, 3.9, 6, 7, 8, 9.5], d3.schemeRdBu[9]),
+          title: "Unemployment rate (%)",
+          tickSize: 0
+        })
 
 
     </script>
