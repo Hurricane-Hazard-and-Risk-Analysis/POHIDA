@@ -1129,7 +1129,7 @@ d3.csv("cum_obs.csv", function(data) {
 
   // Stack the data: each group will be represented on top of each other
   var mygroups = ["LA", "MS"] // list of group names
-  var mygroup = [1,2,3] // list of group names
+  var mygroup = [1,2] // list of group names
   var stackedData = d3.stack()
     .keys(mygroup)
     .value(function(d, key){
