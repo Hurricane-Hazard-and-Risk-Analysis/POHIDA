@@ -166,7 +166,7 @@
 
         queue()
          .defer(d3.json, "us1.json")
-         .defer(d3.csv, "data2.csv")
+         .defer(d3.csv, "data_obs_aug_30.csv")
          .await(ready1)
 
 
@@ -218,7 +218,7 @@
         svg1.append("text")
             .attr("y", 340)//magic number here
             .attr("x", 500)
-            .text("00:00:00 AM")
+            .text("12:00:00 AM")
             .attr("font-size",8);
 
          svg1.append("g")
@@ -294,13 +294,13 @@
         svg.append("text")
             .attr("y", 340)//magic number here
             .attr("x", 500)
-            .text("00:24:47")
+            .text("12:00:00 AM")
             .attr("font-size",8);
 
 
         queue()
          .defer(d3.json, "us1.json")
-         .defer(d3.csv, "data1.csv")
+         .defer(d3.csv, "data_obs_sep_3.csv")
          .await(ready)
          
         function ready(error, us, data) {
@@ -422,7 +422,7 @@
 
         queue()
          .defer(d3.json, "us1.json")
-         .defer(d3.csv, "data1.csv")
+         .defer(d3.csv, "data_model_aug_30.csv")
          .await(ready)
          
         function ready(error, us, data) {
@@ -519,7 +519,7 @@
         svg3.append("text")
             .attr("y", 320)//magic number here
             .attr("x", 500)
-            .text("Observation")
+            .text("Model")
             .attr("font-size",8);
 
         svg3.append("text")
@@ -537,7 +537,7 @@
 
         queue()
          .defer(d3.json, "us1.json")
-         .defer(d3.csv, "data1.csv")
+         .defer(d3.csv, "data_model_sep_3.csv")
          .await(ready)
          
         function ready(error, us, data) {
