@@ -1097,9 +1097,11 @@ Cost Benefit should be analyzed based on climatology and life cycle cost.</p>
 
 
 <p>
-    
+Y Axis is observed Power outage and X Axis is days after 8/29/2021 11:00:00 AM.    
 </p>
+
 <div id="my_dataviz"></div>
+
 
 <script type="text/javascript">
 
@@ -1118,7 +1120,7 @@ var svg_stack_observe = d3.select("#my_dataviz")
           "translate(" + margin.left + "," + margin.top + ")");
 
 //Read the data
-d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_dataset/5_OneCatSevNumOrdered.csv", function(data) {
+d3.csv("cum_obs.csv", function(data) {
 
   // group the data: one array for each value of the X axis.
   var sumstat = d3.nest()
@@ -1126,7 +1128,7 @@ d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_data
     .entries(data);
 
   // Stack the data: each group will be represented on top of each other
-  var mygroups = ["Helen", "Amanda", "Ashley"] // list of group names
+  var mygroups = ["LA", "MS"] // list of group names
   var mygroup = [1,2,3] // list of group names
   var stackedData = d3.stack()
     .keys(mygroup)
